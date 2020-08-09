@@ -28,7 +28,7 @@ fCount = 71;
 [im,map] = rgb2ind(f.cdata,256,'nodither');
 im(1,1,1,fCount) = 0;
 k = 1;
-% spin 45°
+% spin 45Â°
 
 for i = 0:-degStep:-45
   az = i;
@@ -67,7 +67,7 @@ for i = el:degStep:90
   view([az,el])
   f = getframe(gcf);
   im(:,:,1,k) = rgb2ind(f.cdata,map,'nodither');
-  k = k + 1;
+  k = k + 1; 
 end
 imwrite(im,map,'Animation.gif','DelayTime',detlaT,'LoopCount',inf)
 
