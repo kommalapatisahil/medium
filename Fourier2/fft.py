@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 #1000 points sampled
 N = 500
 t = np.linspace(0,1,N)
-
+ 
 s1 = np.sin(50*2*np.pi*t) #pure frequency 50
 s2 = np.sin(200*2*np.pi*t) #pure frequency 100
 s3 = np.sin(100*2*np.pi*t) #pure frequency 200
