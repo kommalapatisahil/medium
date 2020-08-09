@@ -1,4 +1,4 @@
-%to visualizze the magnitude of the pup image
+%to visualizze the magnitude of the pup image 
 
 F = imread('pippt.png');
 B = transpose(rgb2gray(F));
